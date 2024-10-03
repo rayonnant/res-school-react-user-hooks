@@ -1,6 +1,7 @@
 import React from 'react'
 import {UsageOfUseToggle} from './components/UsageOfUseToggle'
 import {UsageOfUseLocalStorage} from './components/UsageOfUseLocalStorage'
+import {UsageOfUseHover} from './components/UsageOfUseHover'
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
           <UsageOfUseToggle/>
           <h2 className='heading'>useLocalStorage</h2>
           <UsageOfUseLocalStorage/>
+          <h2 className='heading'>useHover</h2>
+          <UsageOfUseHover/>
       </div>
   )
 }
