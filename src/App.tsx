@@ -4,6 +4,7 @@ import {UsageOfUseLocalStorage} from './components/UsageOfUseLocalStorage'
 import {UsageOfUseHover} from './components/UsageOfUseHover'
 import {UsageOfUseViewportSize} from './components/UsageOfUseViewportSize'
 import {UsageOfUseWindowScroll} from './components/UsageOfUseWindowScroll'
+import {UsageOfUseFetch} from './components/UsageOfUseFetch'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <UsageOfUseViewportSize/>
           <h2 className='heading'>useWindowScroll</h2>
           <UsageOfUseWindowScroll/>
+          <h2 className='heading'>useFetch</h2>
+          <UsageOfUseFetch/>
       </div>
   )
 }
