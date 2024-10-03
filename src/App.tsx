@@ -3,6 +3,7 @@ import {UsageOfUseToggle} from './components/UsageOfUseToggle'
 import {UsageOfUseLocalStorage} from './components/UsageOfUseLocalStorage'
 import {UsageOfUseHover} from './components/UsageOfUseHover'
 import {UsageOfUseViewportSize} from './components/UsageOfUseViewportSize'
+import {UsageOfUseWindowScroll} from './components/UsageOfUseWindowScroll'
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <UsageOfUseHover/>
           <h2 className='heading'>useViewportSize</h2>
           <UsageOfUseViewportSize/>
+          <h2 className='heading'>useWindowScroll</h2>
+          <UsageOfUseWindowScroll/>
       </div>
   )
 }
