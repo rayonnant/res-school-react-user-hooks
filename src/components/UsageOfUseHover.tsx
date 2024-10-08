@@ -5,7 +5,6 @@ export const UsageOfUseHover: React.FC = () => {
     const {hovered, ref} = useHover()
     const styles = {
         div: {
-            border: '1px solid black',
             height: '80px',
             display: 'flex',
             alignItems: 'center',
